@@ -1,0 +1,16 @@
+body {
+	color:white;
+        font-family: Helvetica, sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+	padding: 20px;
+	margin: 60px;
+}
+h1 {
+        font-family: Georgia, serif;
+}
+section {
+        background-color: rgb(52, 100, 156);
+	border-radius: 1rem;
+	padding: 20px;
+}

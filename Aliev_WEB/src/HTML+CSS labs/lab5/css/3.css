@@ -1,0 +1,60 @@
+    body {
+      font-family: 'Helvetica', sans-serif;
+      background-color: rgb(238, 238, 238);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      width: 400px;
+      background-color: rgb(255, 255, 255);
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+	overflow: hidden;
+ 	position: relative;
+  	display: flex;
+ 	flex-direction: column;
+    }
+
+     img {
+      width: 100%;
+      height: auto;
+    }
+     .card-content {
+	padding: 20px;
+	display: flex;
+  	flex-direction: column;
+  	justify-content: space-between;
+  	flex-grow: 1;
+    }
+
+    h1 {
+      font-family: 'Georgia', serif;
+      font-size: 1em;
+      line-height: 1.2;
+	margin-top: 10px;
+	margin-bottom: 6px;
+	
+    }
+
+    p {
+      font-size: 0.9em;
+      line-height: 1.5;
+      margin-bottom: 16px;
+	margin-top: 6px
+    }
+
+    button {
+      background-color: rgb(0, 153, 0);
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 4px;
+      cursor: pointer;
+	align-self: flex-end;
+	margin-bottom:10px;
+    }
+
+

@@ -1,0 +1,15 @@
+section{
+	height: 250px;
+	width: 250px;
+	border-color: rgb(0,250,0);
+	border-style: dashed; 
+	text-align: center;
+	}
+p{
+	padding: 20px;
+	box-sizing: border-box;
+	border-style: solid; 
+	border-color: rgb(0,0,250);
+	width: 100%;
+	margin:auto;
+	}

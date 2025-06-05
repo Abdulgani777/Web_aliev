@@ -1,0 +1,16 @@
+.container { 
+	width: 100%;          
+	text-align: center;   
+	margin-top:50px;
+	margin-left:700px;
+}
+p{
+	margin: 20px;
+	border-radius: 1rem;
+	padding: 20px;
+	width: 200px;
+	border-width: 5px;
+	border-style: solid; 
+	background-color: rgb(65,223,207);
+	}
+

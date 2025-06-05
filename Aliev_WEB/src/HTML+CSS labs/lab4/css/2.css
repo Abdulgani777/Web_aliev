@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.articles {
+    display: flex;
+    justify-content: space-between;
+    max-width: 70vw;
+    width: 100%;
+    gap: 20px;
+}
+
+article {
+    flex-basis: 30%;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    font-size: 1em;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
